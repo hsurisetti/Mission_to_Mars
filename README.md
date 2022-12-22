@@ -2,9 +2,9 @@
 
 ## Overview :
 
- In this project, we are organizing , analyisng and visulaizing the information about the climate of Mars by performing web-scraping and data analysis.
+ In this project, we are organizing , analyisng and visualizing the information about the climate of Mars by performing web-scraping and data analysis.
 
- Resources :
+ ## Resources :
   - Data Source : Mars News ,  Mars Temperature Data
   - Software : Python, JupyterNotebook
   - Libraries: BeautifulSoup, Splinter
@@ -21,24 +21,28 @@ Json Output File : [mars_data.json](https://github.com/hsurisetti/Mission_to_Mar
 
 ### Scrape and Analyze Mars Weather Data
 
-   - First automated browsing has been established using splinter for the mars temperature data which is in form of html table
+   - First automated browsing has been established using splinter for the mars temperature data which is in the form of html table
    - Next, BeautifulSoup has been used to scrape the data in the HTML table.
    - The scraped data has been assembled into Pandas DataFrame.
 
 Mars DataFrame csv File : [mars_table.csv](https://github.com/hsurisetti/Mission_to_Mars/blob/main/mars_table.csv)
  
- Upon extracting Mars temperature table, the table has been used to analyse and visulaize the data by finding answers to the below questions.
+ Upon extracting Mars temperature table, the table has been used to analyse and visualize the data by finding answers to the below questions.
 
 * How many months exist on Mars? 
 
-        12 months exist in Mars
+    Based on the analysis we can see that 12 months exist in Mars
+   <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/Number_of_months.png" width=400/>
         
 * How many Martian (and not Earth) days worth of data exist in the scraped dataset?
         
-        1867 martian days exist in the scraped data
+    Based on the 'sol' data in the dataframe , we can see that 1867 martian days exist in the scraped data 
+   <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/Martian_Days.png" width=400/>
+        
 * What are the coldest and the warmest months on Mars (at the location of Curiosity)? 
     
-        The anlysis show that Mars is the coldest month and August being the warmest
+    The anlysis show that March is the coldest month and August being the warmest
+   <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/coldest_warmest.png" width=400/>
 
 * Find the average the minimum daily temperature for all of the months.
 Plot the results as a bar chart.
