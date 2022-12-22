@@ -32,6 +32,7 @@ Mars DataFrame csv File : [mars_table.csv](https://github.com/hsurisetti/Mission
 * How many months exist on Mars? 
 
     Based on the analysis we can see that 12 months exist in Mars
+    
    <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/Number_of_months.png" width=400/>
         
 * How many Martian (and not Earth) days worth of data exist in the scraped dataset?
@@ -43,12 +44,17 @@ Mars DataFrame csv File : [mars_table.csv](https://github.com/hsurisetti/Mission
 * What are the coldest and the warmest months on Mars (at the location of Curiosity)? 
     
     The anlysis show that March is the coldest month and August being the warmest
+    
    <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/coldest_warmest.png" width=400/>
 
 * Find the average the minimum daily temperature for all of the months.
 Plot the results as a bar chart.
-      <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/Avg_min_Temp_plot.png" width=400/>
 
+   <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/Avg_min_Temp_plot.png" width=400/>
+
+* What are the lowest and highest pressure recorded on Mars ?
+
+    <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/lowest_highest_pressure1.png" width=400/>
 
 * Average daily atmospheric pressure of all the months on Mars
 Plot the results as a bar chart.
