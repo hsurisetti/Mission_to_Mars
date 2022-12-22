@@ -37,6 +37,7 @@ Mars DataFrame csv File : [mars_table.csv](https://github.com/hsurisetti/Mission
 * How many Martian (and not Earth) days worth of data exist in the scraped dataset?
         
     Based on the 'sol' data in the dataframe , we can see that 1867 martian days exist in the scraped data 
+    
    <img src="https://github.com/hsurisetti/Mission_to_Mars/blob/main/images/Martian_Days.png" width=400/>
         
 * What are the coldest and the warmest months on Mars (at the location of Curiosity)? 
